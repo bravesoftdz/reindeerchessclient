@@ -1,0 +1,27 @@
+Build
+  [C++ Warning] gameboard.cpp(132): W8018 Assigning int to TColor
+  [C++ Warning] Unit1.cpp(109): W8006 Initializing TColor with int
+  [C++ Error] Unit1.cpp(146): E2451 Undefined symbol 'MyHandle'
+  [C++ Error] Unit1.cpp(167): E2451 Undefined symbol 'MyHandle'
+  [C++ Error] Unit1.cpp(266): E2451 Undefined symbol 'PersTellHandle'
+  [C++ Error] Unit1.cpp(353): E2277 Lvalue required
+  [C++ Error] Unit1.cpp(355): E2451 Undefined symbol 'CurGameNum'
+  [C++ Error] Unit1.cpp(365): E2087 Illegal use of pointer
+  [C++ Error] Unit1.cpp(365): E2087 Illegal use of pointer
+  [C++ Error] Unit1.cpp(373): E2087 Illegal use of pointer
+  [C++ Error] Unit1.cpp(373): E2087 Illegal use of pointer
+  [C++ Error] Unit1.cpp(391): E2451 Undefined symbol 'CurGameNum'
+  [C++ Error] Unit1.cpp(579): E2451 Undefined symbol 'z'
+  [C++ Error] Unit1.cpp(591): E2451 Undefined symbol 'z'
+  [C++ Error] Unit1.cpp(603): E2451 Undefined symbol 'z'
+  [C++ Error] Unit1.cpp(615): E2451 Undefined symbol 'z'
+  [C++ Error] Unit1.cpp(627): E2451 Undefined symbol 'z'
+  [C++ Error] Unit1.cpp(639): E2451 Undefined symbol 'z'
+  [C++ Error] Unit1.cpp(651): E2451 Undefined symbol 'z'
+  [C++ Error] Unit1.cpp(663): E2451 Undefined symbol 'z'
+  [C++ Warning] console.cpp(53): W8018 Assigning int to TColor
+  [C++ Error] console.cpp(71): E2316 'PersTellHandle' is not a member of 'TForm1'
+Search for 'PascalChess'
+  (11): #pragma link "PascalChessBrd"
+  (12): #pragma link "PascalChessBrd"
+  (13): #pragma link "PascalChessBrd"

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project1.exe"/>
+    <OBJFILES value="Project1.obj Unit1.obj gameboard.obj login.obj buddylist.obj console.obj 
+      mes.obj instanttell.obj compose.obj"/>
+    <RESFILES value="Project1.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm gameboard.dfm login.dfm buddylist.dfm console.dfm 
+      mes.dfm instanttell.dfm compose.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib bcbsmp.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbsmp.lib vclx.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi qrpt.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi ibsmp.bpi vcldbx.bpi teeui.bpi teedb.bpi tee.bpi teeqr.bpi 
+      ibxpress.bpi bcbie.bpi vclie.bpi inetdb.bpi inet.bpi nmfast.bpi dclocx.bpi 
+      bcb2kaxserver.bpi DCLUSR.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="..\components\TChessBrd;C:\Utility\cpp\bcb;$(BCB)\include;$(BCB)\include\vcl;C:\Utility\cpp\bcb\components"/>
+    <LIBPATH value="..\components\TChessBrd;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Utility\cpp\bcb\Reindeer09Source"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 
+      -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="gameboard.cpp" FORMNAME="Form2" UNITNAME="gameboard" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="login.cpp" FORMNAME="LoginForm" UNITNAME="login" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="buddylist.cpp" FORMNAME="BuddyListForm" UNITNAME="buddylist" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="console.cpp" FORMNAME="CForm" UNITNAME="console" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mes.cpp" FORMNAME="MesForm" UNITNAME="mes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="instanttell.cpp" FORMNAME="ITellForm" UNITNAME="instanttell" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="compose.cpp" FORMNAME="FormCompose" UNITNAME="compose" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info] IncludeVerInfo=0 AutoIncBuild=0 MajorVer=1 MinorVer=0 Release=0 Build=0 Debug=0 PreRelease=0 Special=0 Private=0 DLL=0 Locale=1033 CodePage=1252 [Version Info Keys] CompanyName= FileDescription= FileVersion=1.0.0.0 InternalName= LegalCopyright= LegalTrademarks= OriginalFilename= ProductName= ProductVersion=1.0.0.0 Comments= [Excluded Packages] c:\program files\borland\cbuilder6\Projects\Bpl\chessboardbcb_design.bpl=ChessBoard, ChessBrd Components (Design) c:\program files\borland\cbuilder6\Bin\bcbie60.bpl=Borland C++Builder Internet Explorer 5 Components Package [HistoryLists\hlIncludePath] Count=4 Item0=C:\Utility\cpp\bcb\;$(BCB)\include;$(BCB)\include\vcl;C:\Utility\cpp\bcb\components Item1=E:\Images\Borland Shared\Images\Buttons\;e:\cpp_comp\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl Item2=E:\Images\Borland Shared\Images\Buttons;e:\cpp_comp\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl Item3=e:\cpp_comp\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl [HistoryLists\hlLibraryPath] Count=4 Item0=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Utility\cpp\bcb\Reindeer09Source Item1=E:\Images\Borland Shared\Images\Buttons\;e:\cpp_comp\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib Item2=E:\Images\Borland Shared\Images\Buttons;e:\cpp_comp\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib Item3=e:\cpp_comp\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib [HistoryLists\hlDebugSourcePath] Count=1 Item0=$(BCB)\source\vcl [HistoryLists\hlConditionals] Count=1 Item0=_DEBUG [Debugging] DebugSourceDirs=$(BCB)\source\vcl [Parameters] RunParams= Launcher= UseLauncher=0 DebugCWD= HostApplication= RemoteHost= RemotePath= RemoteLauncher= RemoteCWD= RemoteDebug=0 [Compiler] ShowInfoMsgs=0 LinkDebugVcl=0 LinkCGLIB=0 [Language] ActiveLang= ProjectLang= RootDir=
+  </IDEOPTIONS>
+</PROJECT>
